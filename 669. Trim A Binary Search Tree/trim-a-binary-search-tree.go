@@ -25,5 +25,5 @@ func trimBST(root *TreeNode, L int, R int) *TreeNode {
 	} else if val > R {
 		temp = root.Left
 	}
-	return trimBST(temp, L, R )
+	return trimBST(temp, L, R)
 }
